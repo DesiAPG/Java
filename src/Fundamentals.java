@@ -1,6 +1,8 @@
 public class Fundamentals {
 
-    /* Clase 1 */
+    /* Class 1
+       Fundamentals
+    * */
     public static void main(String[] args) {
         System.out.println("Hello World");
     }
