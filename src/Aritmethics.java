@@ -1,7 +1,7 @@
 public class Aritmethics {
 
-    /* Clase 2
-       Aritmetica
+    /* Class 2
+       Aritmethics
      */
 
     public static void main(String[] args) {
@@ -11,22 +11,19 @@ public class Aritmethics {
 
         // Addition
         result = number2 + number1;
-        System.out.println(number2 + "+" + number1 + " is: "+result);
+        System.out.println(number2 + " + " + number1 + " = " + result);
 
         // Substraction
         result = number2 - number1;
-        System.out.println(number2 + "-" + number1 + " is: "+result);
+        System.out.println(number2 + " - " + number1 + " = " + result);
 
         // Multiplication
         result = number2 * number1;
-        System.out.println(number2 + "*" + number1 + " is: "+result);
+        System.out.println(number2 + " * " + number1 + " = " + result);
 
         // Difference
         result = number2 / number1;
-        System.out.println(number2 + "/" + number1 + " is: "+result);
-
-
-
+        System.out.println(number2 + " / " + number1 + " = " + result);
 
 
     }
