@@ -6,6 +6,9 @@ public class CAccount {
     private double typeOfInterest;
     private double balance;
 
+    public CAccount() {
+    }
+
     public CAccount(String nam, String acc, double bal, double type) {
         setName(nam);
         setBalance(bal);
