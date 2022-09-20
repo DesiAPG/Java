@@ -6,6 +6,13 @@ public class CAccount {
     private double typeOfInterest;
     private double balance;
 
+    public CAccount(String nam, String acc, double bal, double type) {
+        setName(nam);
+        setBalance(bal);
+        setAccount(acc);
+        setTypeOfInterest(type);
+    }
+
     public void setName(String name1) {
         if (name1.length() == 0) {
             System.out.println("String is empty");
@@ -55,6 +62,8 @@ public class CAccount {
     public void setTypeOfInterest(double type) {
         if (type < 0) {
             System.out.println("Error: type not valid");
+        } else {
+            typeOfInterest += type;
         }
     }
 
