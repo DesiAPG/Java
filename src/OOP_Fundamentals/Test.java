@@ -3,7 +3,7 @@ package OOP_Fundamentals;
 public class Test {
     public static void main(String[] args) {
         //CAccount account1 = new CAccount("duvan", "credit", 2000, 1);
-        CSavingAccount account1 = new CSavingAccount();
+        CSavingAccount account1 = new CSavingAccount("Name", "Account", 6000, 3.5, 0.80);
         account1.setName("Duvan");
         account1.setAccount("Credit");
         account1.setTypeOfInterest(2.5);
