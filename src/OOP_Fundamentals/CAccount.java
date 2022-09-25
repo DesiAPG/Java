@@ -26,7 +26,7 @@ public class CAccount {
     }
 
     public String getName() {
-        return name;
+        return this.name;
     }
 
     public void setAccount(String acc) {
@@ -39,7 +39,7 @@ public class CAccount {
     }
 
     public String getAccount() {
-        return account;
+        return this.account;
     }
 
     public void setBalance(double quantity) {
@@ -51,7 +51,7 @@ public class CAccount {
     }
 
     public double getBalance() {
-        return balance;
+        return this.balance;
     }
 
     public void withdraw(double quantity) {
@@ -71,7 +71,7 @@ public class CAccount {
     }
 
     public double getTypeOfInterest() {
-        return typeOfInterest;
+        return this.typeOfInterest;
     }
 }
 

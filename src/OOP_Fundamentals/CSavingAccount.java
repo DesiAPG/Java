@@ -8,7 +8,11 @@ public class CSavingAccount extends CAccount {
 
     public CSavingAccount(String nam, String acc, double bal, double type, double handF) {
         super(nam, acc, bal, type);
-
+        setName(nam);
+        setBalance(bal);
+        setAccount(acc);
+        setTypeOfInterest(type);
+        setHandlingFee(handF);
     }
 
     public void setHandlingFee(double amount) {
@@ -20,7 +24,7 @@ public class CSavingAccount extends CAccount {
     }
 
     public double getHandlingFee() {
-        return HandlingFee;
+        return this.HandlingFee;
     }
 
     @Override
