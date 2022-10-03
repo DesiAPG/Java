@@ -7,7 +7,6 @@ public class Car {
     private boolean engine;
     private int velocity;
 
-
     public void stopEngine() {
         if (!engine) {
             System.out.println("The engine is already stopped");
@@ -34,7 +33,6 @@ public class Car {
             System.out.println("The car has stopped");
         }
     }
-
 
     public void startEngine() {
         if (engine) {
