@@ -1,7 +1,8 @@
 public class ExercisesClass2 {
 
-    /* Class 2
-       Exercises
+    /*
+     * Class 2
+     * Exercises
      */
 
     public static void main(String[] args) {

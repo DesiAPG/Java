@@ -1,7 +1,8 @@
 public class Aritmethics {
 
-    /* Class 2
-       Aritmethics
+    /*
+     * Class 2
+     * Aritmethics
      */
 
     public static void main(String[] args) {
@@ -24,7 +25,6 @@ public class Aritmethics {
         // Difference
         result = number2 / number1;
         System.out.println(number2 + " / " + number1 + " = " + result);
-
 
     }
 }

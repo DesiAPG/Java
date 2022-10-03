@@ -1,7 +1,8 @@
 public class ControlStructures {
 
-    /* Class 2
-       ControlStructures
+    /*
+     * Class 2
+     * ControlStructures
      */
 
     public static void main(String[] args) {

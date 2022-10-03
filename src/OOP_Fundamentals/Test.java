@@ -2,7 +2,7 @@ package OOP_Fundamentals;
 
 public class Test {
     public static void main(String[] args) {
-        //CAccount account1 = new CAccount("duvan", "credit", 2000, 1);
+        // CAccount account1 = new CAccount("duvan", "credit", 2000, 1);
         CSavingAccount account1 = new CSavingAccount("Name", "Account", 6000, 3.5, 0.80);
         account1.setName("Duvan");
         account1.setAccount("Credit");
@@ -10,7 +10,6 @@ public class Test {
 
         account1.setBalance(12000);
         account1.withdraw(3000);
-
 
         System.out.println(account1.getAccount());
         System.out.println(account1.getBalance());

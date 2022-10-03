@@ -17,7 +17,6 @@ public class Computer {
         }
     }
 
-
     public void ComputerState() {
         System.out.println("The state of the computer:");
         System.out.println("Brand: " + brand);
@@ -60,6 +59,5 @@ public class Computer {
     public void setProcessor(String processor) {
         this.processor = processor;
     }
-
 
 }

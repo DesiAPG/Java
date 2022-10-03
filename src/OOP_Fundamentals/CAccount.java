@@ -74,4 +74,3 @@ public class CAccount {
         return this.typeOfInterest;
     }
 }
-
