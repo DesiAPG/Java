@@ -15,4 +15,12 @@ public class RationalNumbers {
     public void getData() {
         System.out.println(numerator + "/" + denominator);
     }
+
+    public static RationalNumbers Addition(RationalNumbers a, RationalNumbers b) {
+        RationalNumbers r = new RationalNumbers();
+        int num = a.numerator * b.denominator + a.denominator * b.numerator;
+        int den = a.denominator * b.denominator;
+        r.setData(num, den);
+        return r;
+    }
 }
